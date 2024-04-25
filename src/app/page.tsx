@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import Link from 'next/link'
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
@@ -25,6 +26,8 @@ import {
   onlyText,
   parseHyperlinkedText,
 } from '../components/notion/resumeApi';
+
+export const revalidate = 10;
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -336,7 +339,9 @@ export default async function Page() {
             className="size-28"
             dataToolTip={avatarToolTip || ''}
             >
-            <AvatarImage alt={name} src={avatarLink} />
+            <Link href={homeNavLink || ''}>
+              <AvatarImage alt={name} src={avatarLink} />
+            </Link>
             <AvatarFallback>{initials}</AvatarFallback>
           </Avatar>
         </div>
