@@ -1,6 +1,6 @@
-![original_cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
-
-![notion_cv](assets/cv_when_connected_with_notion_db.png)
+App Data CV             |  Notion CV
+:-------------------------:|:-------------------------:
+![app_data_cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)  |  ![notion_cv](assets/cv_when_connected_with_notion_db.png)
 
 # Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 
