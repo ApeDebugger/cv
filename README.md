@@ -4,15 +4,19 @@
 
 Simple web app that renders minimalist CV with print-friendly layout.
 
-Built with Next.js and shadcn/ui, deployed on Vercel.
+Built with Next.js, shadcn/ui & Notion API, deployed on Vercel.
 
 # Features
 
 - Setup only takes a few minutes [single config file](./src/data/resume-data.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/ui, TailwindCss
+- Built using Next.js 14, React, Typescript, Shadcn/ui, TailwindCss & Notion API
 - Auto generated Layout
 - Responsive for different devices
 - Optimized for Next.js and Vercel
+
+# Getting Started Right Away
+
+Follow this tutorial: WORK IN PROGRESS
 
 # Getting Started Locally
 

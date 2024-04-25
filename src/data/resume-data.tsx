@@ -36,17 +36,17 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        link: "https://github.com/BartoszJarocki",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        link: "https://www.linkedin.com/in/bjarocki/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        link: "https://x.com/BartoszJarocki",
         icon: XIcon,
       },
     ],
@@ -104,15 +104,17 @@ export const RESUME_DATA = {
       description: "Creating and testing software for LTE base stations",
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
+  skills: {
+    tech: [
+      "JavaScript",
+      "TypeScript",
+      "React/Next.js/Remix",
+      "Node.js",
+      "GraphQL",
+      "Relay",
+      "WebRTC",
+      ],
+  },
   projects: [
     {
       title: "Consultly",
@@ -126,10 +128,7 @@ export const RESUME_DATA = {
       ],
       description: "A platform to build and grow your online business",
       logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      link: "https://consultly.com/",
     },
     {
       title: "Monito",
@@ -137,10 +136,7 @@ export const RESUME_DATA = {
       description:
         "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+      link: "https://monito.dev/",
     },
     {
       title: "Jarocki.me",
@@ -148,10 +144,7 @@ export const RESUME_DATA = {
       description:
         "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+      link: "https://jarocki.me/",
     },
     {
       title: "Minimal",
@@ -159,10 +152,7 @@ export const RESUME_DATA = {
       description:
         "Minimalist calendars, habit trackers and planners generator",
       logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
+      link: "https://useminimal.com/",
     },
     {
       title: "Barepapers",
@@ -170,20 +160,14 @@ export const RESUME_DATA = {
       description:
         "Generates beautiful wallpapers using random shapes and gradients",
       logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
+      link: "https://barepapers.com/",
     },
     {
       title: "Year progress",
       techStack: ["Side Project", "TypeScript", "Next.js"],
       description: "Tracks current year progress and displays a countdown",
       logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
+      link: "https://getyearprogress.com/",
     },
     {
       title: "Parabol",
@@ -197,10 +181,7 @@ export const RESUME_DATA = {
       description:
         "The Agile meeting co-pilot that delivers better meetings with less effort",
       logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+      link: "https://parabol.co/",
     },
     {
       title: "Evercast",
@@ -215,10 +196,7 @@ export const RESUME_DATA = {
       description:
         "Creative collaboration platform that combines video conferencing and HD media streaming",
       logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
+      link: "https://www.evercast.us/",
     },
     {
       title: "Mobile Vikings",
@@ -226,10 +204,7 @@ export const RESUME_DATA = {
       description:
         "Android application for leading virtual mobile operator in Poland",
       logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
+      link: "https://mobilevikings.pl/",
     },
     {
       title: "Howdy",
@@ -237,10 +212,7 @@ export const RESUME_DATA = {
       description:
         "Howdy is a place for you to join communities you care about",
       logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
+      link: "https://howdy.co/",
     },
     {
       title: "Tastycloud",
@@ -248,10 +220,7 @@ export const RESUME_DATA = {
       description:
         "Android application for managing and displaying restaurant menus in kiosk mode",
       logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
+      link: "https://www.tastycloud.fr/",
     },
     {
       title: "Ambit",
