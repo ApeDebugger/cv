@@ -541,5 +541,5 @@ const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 });
 
-// console.log(process.env.LIFEAPI_DATABASE_ID);
+// console.log(process.env.NOTION_RESUME_DATABASE_ID);
 export const resumeApi = new ResumeApi(notion, process.env.NOTION_RESUME_DATABASE_ID!);
