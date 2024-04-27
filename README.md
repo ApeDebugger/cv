@@ -27,7 +27,9 @@ Built with Next.js, shadcn/ui & Notion API, deployed on Vercel.
 
 Follow this tutorial: [My online CV powered directly from my Notion workspace](https://shubhammittal.vercel.app/notes/build_your_online_cv_with_notion)
 
-Want to test first: [1-min Demo: Update Online CV from Notion Database](https://www.loom.com/share/70bd77301304413b9d7edbdad40adfc2)
+Want to see it happening: [1-min Demo: Update Online CV from Notion Database](https://www.loom.com/share/70bd77301304413b9d7edbdad40adfc2)
+
+Finally, test it out: [Testing Playground for NotionCV](https://notioncv-playground.vercel.app)
 
 # Getting Started Locally (recommended for technical folks)
 
